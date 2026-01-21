@@ -1,0 +1,33 @@
+PROJECT TITLE: Student Result Management System (Improved Version)
+
+1. Requirement Analysis
+The objective of this system is to manage student academic results efficiently. The system allows users to add multiple student names and scores, view all student records, and calculate the average score. Functional requirements include:
+- Adding one or more student records
+- Viewing all student records with scores
+- Calculating and displaying the average score
+- Validating user input to ensure correct data entry
+
+2. System Design
+The system is designed as a console-based Python application. It uses a modular structure with functions for each operation:
+- add_student(): Adds one or more students with input validation
+- view_students(): Displays all students and their scores, and calculates the average
+A Python dictionary is used as the primary data structure to store student names and their corresponding scores. The menu-driven interface allows easy navigation.
+
+3. Implementation
+The system was implemented in Python. The main file, main.py, contains the core logic of the program. Input is taken from the user via the console, validated, and stored in memory using the dictionary. The system provides feedback messages to guide the user.
+
+4. Testing
+Testing involved:
+- Adding multiple student records to ensure data is stored correctly
+- Viewing students to confirm correct display of information
+- Checking average score calculation
+- Validating error handling for invalid names and scores
+
+5. Deployment
+The system can be deployed by running main.py in any environment where Python is installed. Users interact with the program via a console interface, selecting options from a menu.
+
+6. Maintenance
+Future enhancements may include:
+- Persistent storage to save student data to a file
+- Editing or deleting student records
+- Adding features such as grade calculation or reports
