@@ -1,4 +1,4 @@
-PROJECT TITLE: Student Result Management System (Improved Version)
+PROJECT TITLE: Student Result Management System
 
 1. Requirement Analysis
 The objective of this system is to manage student academic results efficiently. The system allows users to add multiple student names and scores, view all student records, and calculate the average score. Functional requirements include:
@@ -31,3 +31,4 @@ Future enhancements may include:
 - Persistent storage to save student data to a file
 - Editing or deleting student records
 - Adding features such as grade calculation or reports
+
